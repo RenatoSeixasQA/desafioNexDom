@@ -42,8 +42,8 @@ Isso irá abrir a interface gráfica do Cypress, onde você pode visualizar e ex
 ```bash
 npx cypress run
 ```
-Para executar os testes do back end, utilize o arquivo New Collection.postman_collection.json que está na raiz do projeto e importe para o postman 
-
+Para executar os testes do back end, utilize o arquivo  Collection.json que está na raiz do projeto e importe para o postman 
+ Nas urls substitua {repositorio} pelo repositorio de teste e {proprietario} pelo proprietario de teste 
 
 
 
