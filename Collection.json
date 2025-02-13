@@ -63,7 +63,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://api.github.com/repos/RenatoSeixasQA/Hello-World",
+					"raw": "https://api.github.com/repos/{proprietario}/{repositorio}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -72,8 +72,8 @@
 					],
 					"path": [
 						"repos",
-						"RenatoSeixasQA",
-						"Hello-World"
+						"{proprietario}",
+						"{repositorio}"
 					]
 				}
 			},
@@ -85,7 +85,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.github.com/repos/RenatoSeixasQA/Hello-World",
+					"raw": "https://api.github.com/repos/{proprietario}/{repositorio}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -94,8 +94,8 @@
 					],
 					"path": [
 						"repos",
-						"RenatoSeixasQA",
-						"Hello-World"
+						"{proprietario}",
+						"{repositorio}"
 					]
 				}
 			},
@@ -122,7 +122,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://api.github.com/repos/RenatoSeixasQa/Hello-World/issues",
+					"raw": "https://api.github.com/repos/{proprietario}/{repositorio}/issues",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -131,8 +131,8 @@
 					],
 					"path": [
 						"repos",
-						"RenatoSeixasQa",
-						"Hello-World",
+						"{proprietario}",
+						"{repositorio}",
 						"issues"
 					]
 				}
@@ -145,7 +145,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.github.com/repos/RenatoSeixasQA/Hello-World/issues/1",
+					"raw": "https://api.github.com/repos/{proprietario}/{repositorio}/issues/1",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -154,8 +154,8 @@
 					],
 					"path": [
 						"repos",
-						"RenatoSeixasQA",
-						"Hello-World",
+						"{proprietario}",
+						"{repositorio}",
 						"issues",
 						"1"
 					]
